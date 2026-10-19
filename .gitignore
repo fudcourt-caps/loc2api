@@ -1,0 +1,24 @@
+# Built binaries
+/loc2api-cli
+loc2api-cli.exe
+/cmd/loc2api-cli/loc2api-cli
+*.exe
+*.test
+*.out
+
+# Test and coverage artifacts
+coverage.*
+*.prof
+*.coverprofile
+
+# Editor and IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Go build cache
+/.gocache/
+go.work
+go.work.sum
