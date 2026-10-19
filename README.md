@@ -10,8 +10,6 @@ Both endpoints are undocumented; they were located by reverse-engineering the si
 go get github.com/fudcourt-caps/loc2api
 ```
 
-Replace `<user>` with the repository's GitHub owner (update `go.mod` accordingly before tagging a release).
-
 For local development against a checkout, add a `replace` directive to your own `go.mod`:
 
 ```go
